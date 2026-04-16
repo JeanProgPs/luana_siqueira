@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Studio Luana Siqueira - Desfrute de uma experiência de beleza única e relaxante. Serviços de cabelo, maquiagem e estética.">
+
+    <!-- Open Graph / WhatsApp Tags -->
+    <meta property="og:title" content="Studio Luana Siqueira | Oásis da Beleza">
+    <meta property="og:description"
+        content="Desfrute de uma experiência de beleza única e relaxante. Um verdadeiro oásis premium.">
+    <meta property="og:image" content="https://rodrigate.github.io/projetos_luana/img/logo.png">
+    <meta property="og:type" content="website">
+
+    <title>Studio Luana Siqueira | Oásis da Beleza</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <!-- Fontes Premium -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="hero-is-dark">
+    <!-- Navbar Responsiva e Floating -->
+    <header class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Studio Luana Siqueira Logo">
+            </a>
+            <nav class="nav-menu">
+                <a href="#inicio" class="nav-link">Início</a>
+                <a href="#sobre" class="nav-link">Sobre nós</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#espaco" class="nav-link">Espaço</a>
+                <a href="#time" class="nav-link">Artistas</a>
+                <a href="#depoimentos" class="nav-link">Depoimentos</a>
+                <a href="https://api.whatsapp.com/send/?phone=5521991895482&text=Ol%C3%A1%21%20Vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio."
+                    target="_blank" class="btn-primary">Agendar</a>
+            </nav>
+            <div class="hamburger" aria-label="Abrir Menu" role="button" tabindex="0">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="inicio" class="hero">
+            <canvas id="hero-canvas"></canvas>
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1 class="fade-up">Desfrute de uma experiência<br>de beleza única e relaxante</h1>
+                <p class="fade-up delay-1">Um conceito premium de cuidado, estilo e bem-estar para você.</p>
+                <div class="hero-buttons fade-up delay-2">
+                    <a href="#servicos" class="btn-outline">Ver Serviços</a>
+                    <a href="https://api.whatsapp.com/send/?phone=5521991895482&text=Ol%C3%A1%21%20Vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio."
+                        class="btn-primary" target="_blank">Agende seu horário</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="section sobre">
+            <div class="container sobre-grid">
+                <div class="sobre-text fade-up">
+                    <h2 class="section-title">A Arte de Cuidar</h2>
+                    <p>O <strong>Studio Luana Siqueira</strong> nasceu com a missão de transformar o conceito de salão
+                        de beleza. Mais do que cuidar da estética, nós oferecemos uma verdadeira jornada de bem-estar e
+                        renovação. Nosso espaço foi pensado em todos os mínimos detalhes para garantir luxo, conforto e
+                        resultados extraordinários para nossos clientes.</p>
+                    <a href="#espaco" class="link-arrow">Conheça nosso espaço &rarr;</a>
+                </div>
+                <div class="sobre-image fade-up delay-1">
+                    <img src="img/Sobre.png" alt="Sobre o Studio e a experiência premium">
+                </div>
+            </div>
+        </section>
+
+        <!-- Serviços -->
+        <section id="servicos" class="section servicos">
+            <div class="container">
+                <h2 class="section-title center fade-up">Nossas Especialidades</h2>
+                <div class="servicos-grid">
+                    <div class="card-servico fade-up">
+                        <div class="card-img" style="background-image: url('img/haircare.webp');"></div>
+                        <h3>Hair Care</h3>
+                        <p>Técnicas especializadas para saúde e beleza dos fios:</p>
+                        <ul class="servicos-lista">
+                            <li>Colorimetria</li>
+                            <li>Corte personalizado</li>
+                            <li>Realinhamento capilar</li>
+                            <li>Tratamentos intensivos</li>
+                            <li>Cronogramas capilares avançados</li>
+                            <li>Extensão capilar</li>
+                        </ul>
+                    </div>
+                    <div class="card-servico fade-up delay-1">
+                        <div class="card-img" style="background-image: url('img/bemestar.jpg');"></div>
+                        <h3>Bem-estar</h3>
+                        <p>Cuidados que elevam sua autoestima e autocuidado:</p>
+                        <ul class="servicos-lista">
+                            <li>Design de sobrancelhas</li>
+                            <li>Design de sobrancelhas com henna</li>
+                            <li>Depilação facial</li>
+                            <li>Manicure e pedicure</li>
+                            <li>Spa dos pés</li>
+                        </ul>
+                    </div>
+                    <div class="card-servico fade-up delay-2">
+                        <div class="card-img" style="background-image: url('img/Eventos.jpg');"></div>
+                        <h3>Eventos</h3>
+                        <p>Produção completa para ocasiões especiais:</p>
+                        <ul class="servicos-lista">
+                            <li>Penteados</li>
+                            <li>Maquiagem</li>
+                            <li>Tranças nagô</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeria de Espaço -->
+        <section id="espaco" class="section espaco dark-section">
+            <div class="container">
+                <h2 class="section-title center fade-up">Nosso Espaço</h2>
+                <p class="center desc-text fade-up delay-1 mb-3">Um ambiente acolhedor e sofisticado no coração da sua
+                    cidade.</p>
+                <div class="gallery fade-up delay-2">
+                    <figure><img src="img/espaço1.jpeg" alt="Lavatórios Relaxantes"></figure>
+                    <figure><img src="img/espaço2.jpeg" alt="Espaço de Maquiagem"></figure>
+                    <figure><img src="img/espaço3.jpeg" alt="Recepção Premium"></figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Time -->
+        <section id="time" class="section time">
+            <div class="container">
+                <h2 class="section-title center fade-up">Artistas</h2>
+                <p class="center desc-text fade-up delay-1">Apaixonados por beleza, formamos um time de experts à sua
+                    disposição.</p>
+                <div class="time-grid mt-4">
+                    <div class="time-card fade-up">
+                        <img src="img/Luana Siqueira.png" alt="Luana Siqueira">
+                        <h4>Luana Siqueira</h4>
+                        <p>CEO & Master Stylist</p>
+                    </div>
+                    <div class="time-card fade-up delay-1">
+                        <img src="img/BRENDA.png" alt="Brenda">
+                        <h4>Brenda</h4>
+                        <p>Especialista em Beleza</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Depoimentos -->
+        <section id="depoimentos" class="section depoimentos">
+            <div class="container">
+                <h2 class="section-title center fade-up">O Que Dizem Nossas Clientes</h2>
+                <p class="center desc-text fade-up delay-1 mb-3">A satisfação de quem viveu a experiência Luana
+                    Siqueira.</p>
+                <div class="depoimentos-grid mt-4">
+                    <div class="depoimento-card fade-up">
+                        <div class="stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                        </div>
+                        <p class="depoimento-text">"Foi uma experiência maravilhosa! O ambiente é super relaxante e o
+                            atendimento é impecável. Amei o resultado do meu cabelo, super indico!"</p>
+                        <div class="cliente-info">
+                            <img src="img/depoimento_1.png" alt="Cliente 1" class="cliente-avatar">
+                            <div>
+                                <h4>Mariana Silva</h4>
+                                <span>Cliente Ouro</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depoimento-card fade-up delay-1">
+                        <div class="stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                        </div>
+                        <p class="depoimento-text">"A Luana e sua equipe são extremamente profissionais. A maquiagem
+                            durou a festa inteira e recebi muitos elogios. O melhor estúdio da região."</p>
+                        <div class="cliente-info">
+                            <img src="img/depoimento_2.png" alt="Cliente 2" class="cliente-avatar">
+                            <div>
+                                <h4>Camila Costa</h4>
+                                <span>Noiva</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depoimento-card fade-up delay-2">
+                        <div class="stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                        </div>
+                        <p class="depoimento-text">"Um verdadeiro oásis! Fui fazer as sobrancelhas e saí de lá
+                            revigorada. O cuidado nos mínimos detalhes faz toda a diferença. Voltarei sempre!"</p>
+                        <div class="cliente-info">
+                            <img src="img/depoimento_3.png" alt="Cliente 3" class="cliente-avatar">
+                            <div>
+                                <h4>Júlia Mendes</h4>
+                                <span>Cliente Fiel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer / Contato -->
+    <footer id="contato" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <!-- Fallback se não for possivel deixar branco, a opacidade + filter da uma estilizada -->
+                <img src="img/logo.png" alt="Logo Luana Siqueira" class="footer-logo">
+                <p>Oásis da beleza. Cuidamos do seu estilo e bem-estar de forma exclusiva. Desfrute dessa experiência.
+                </p>
+                <div class="footer-hours" style="margin-top: 1.5rem;">
+                    <h5
+                        style="color: var(--white); font-family: var(--font-heading); font-size: 1.1rem; margin-bottom: 0.5rem;">
+                        Horário de Funcionamento</h5>
+                    <p style="font-size: 0.95rem;">Terça a Quinta: 09:00 às 18:00<br>Sexta e Sábado: 09:00 às 20:00</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Agende e Visite</h4>
+                <p style="align-items: flex-start; line-height: 1.4;">📍 Rua Alice Quintela Mariuci Regadas,
+                    66<br>Várzea, Teresópolis RJ, 25953-240<br>Loja 5</p>
+                <p>📞 <a
+                        href="https://api.whatsapp.com/send/?phone=5521991895482&text=Ol%C3%A1%21%20Vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio.">+55
+                        21 99189-5482</a></p>
+                <p>✉️ <a href="mailto:atendimento@studioluanasiqueira.com.br">atendimento@studioluanasiqueira.com.br</a>
+                </p>
+                <div
+                    style="margin-top: 1.5rem; border-radius: 8px; overflow: hidden; width: 100%; max-width: 400px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+                    <iframe title="Mapa Localização Studio Luana Siqueira"
+                        src="https://maps.google.com/maps?q=Studio%20Luana%20Siqueira,%20Rua%20Alice%20Quintela%20Mariuci%20Regadas,%2066,%20Várzea,%20Teresópolis%20-%20RJ&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                        width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="footer-social">
+                <h4>Conecte-se</h4>
+                <a href="https://www.instagram.com/studio_luanasiqueira/" target="_blank" class="social-link">Instagram
+                    <span>@studio_luanasiqueira</span></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Studio Luana Siqueira | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Fixed WhatsApp Button -->
+    <a href="https://api.whatsapp.com/send/?phone=5521991895482&text=Ol%C3%A1%21%20Vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio."
+        class="whatsapp-float" target="_blank" aria-label="Agendar no WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp"
+            viewBox="0 0 16 16">
+            <path
+                d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+        </svg>
+    </a>
+</body>
+
+</html>
